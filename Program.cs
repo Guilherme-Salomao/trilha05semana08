@@ -10,7 +10,6 @@ namespace Semana08
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("olá mundo!");
         }
     }
 }
