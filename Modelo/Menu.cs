@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using Semana08.Classes;
+using Semana08.Manutencao;
 
 
-namespace Semana07.Modelos
+namespace Semana08.Modelo
 {
     internal class Menu
     {

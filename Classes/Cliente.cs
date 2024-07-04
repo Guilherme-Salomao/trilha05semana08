@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Semana08.Modelos
+namespace Semana08.Classes
 {
     internal class Cliente
     {

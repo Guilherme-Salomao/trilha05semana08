@@ -1,9 +1,9 @@
-﻿using Semana07.Modelos;
-using Semana08.Modelos;
+﻿using Semana08.Classes;
+using Semana08.Modelo;
 using System;
 using System.Collections.Generic;
 
-namespace Semana08.Classes
+namespace Semana08.Manutencao
 {
     internal class ManutencaoCliente
     {

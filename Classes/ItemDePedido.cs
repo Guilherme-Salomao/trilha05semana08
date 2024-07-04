@@ -1,7 +1,7 @@
 ﻿using Semana08.Classes;
 using System;
 
-namespace Semana08.Modelos
+namespace Semana08.Classes
 {
     internal class ItemDePedido : Produto
     {

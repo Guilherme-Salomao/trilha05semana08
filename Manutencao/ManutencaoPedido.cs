@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Semana08.Classes;
+using Semana08.Modelo;
+using System;
 using System.Collections.Generic;
-using Semana08.Modelos; // Importe outras classes necessárias
 
-namespace Semana08.Classes
+namespace Semana08.Manutencao
 {
     internal class ManutencaoPedido
     {

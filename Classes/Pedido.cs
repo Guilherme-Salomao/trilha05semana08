@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Semana08.Modelos
+namespace Semana08.Classes
 {
     internal class Pedido
     {
