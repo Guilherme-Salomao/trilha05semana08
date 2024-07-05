@@ -1,7 +1,5 @@
-﻿using Semana08.Classes;
+﻿using Semana08.Main;
 using Semana08.Modelo;
-using System;
-using System.Collections.Generic;
 
 namespace Semana08.Manutencao
 {
@@ -11,7 +9,7 @@ namespace Semana08.Manutencao
         private List<ItemDePedido> itemDePedidos;
         private List<Produto> produtosCadastrados;
         // Adicionando Menu como dependência para ter apenas uma lista
-        private Menu menu; 
+        private Menu menu;
 
         public ManutencaoItemProduto(Menu menu, List<ItemDePedido> itemDePedidos, List<Produto> produtosCadastrados)
         {

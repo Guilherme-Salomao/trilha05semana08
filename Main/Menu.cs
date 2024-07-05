@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using Semana08.Classes;
-using Semana08.Manutencao;
+﻿using Semana08.Manutencao;
 
-
-namespace Semana08.Modelo
+namespace Semana08.Main
 {
     internal class Menu
     {

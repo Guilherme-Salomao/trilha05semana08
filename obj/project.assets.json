@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Semana08_Classes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Semana08_Classes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Semana08_Classes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Semana08_Classes/1.0.0": {
+      "type": "project",
+      "path": "../Semana08_Classes/Semana08_Classes.csproj",
+      "msbuildProject": "../Semana08_Classes/Semana08_Classes.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Semana08_Classes >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Guilherme\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\GitHub\\Trilha5\\Semana08\\Semana08.csproj",
+      "projectName": "Semana08",
+      "projectPath": "C:\\GitHub\\Trilha5\\Semana08\\Semana08.csproj",
+      "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\Trilha5\\Semana08\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\GitHub\\Trilha5\\Semana08_Classes\\Semana08_Classes.csproj": {
+              "projectPath": "C:\\GitHub\\Trilha5\\Semana08_Classes\\Semana08_Classes.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

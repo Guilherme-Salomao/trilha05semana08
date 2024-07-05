@@ -1,4 +1,4 @@
-﻿using Semana08.Modelo;
+﻿using Semana08.Main;
 
 namespace Semana08
 {
@@ -9,7 +9,6 @@ namespace Semana08
             Menu menu = new Menu();
             menu.ExibirLogo();
             menu.ExibirMenu();
-
         }
     }
 }
