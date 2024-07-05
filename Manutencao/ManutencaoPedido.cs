@@ -1,5 +1,4 @@
 ﻿using Semana08.Main;
-using Semana08.Modelo;
 
 namespace Semana08.Manutencao
 {
