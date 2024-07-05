@@ -1,4 +1,5 @@
 ﻿using Semana08.Manutencao;
+using Semana08_Classes.Modelo;
 
 namespace Semana08.Main
 {

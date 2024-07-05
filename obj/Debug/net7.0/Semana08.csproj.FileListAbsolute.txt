@@ -1,3 +1,4 @@
+C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\Semana08.csproj.AssemblyReference.cache
 C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\Semana08.GeneratedMSBuildEditorConfig.editorconfig
 C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\Semana08.AssemblyInfoInputs.cache
 C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\Semana08.AssemblyInfo.cs
@@ -7,9 +8,11 @@ C:\GitHub\Trilha5\Semana08\bin\Debug\net7.0\Semana08.deps.json
 C:\GitHub\Trilha5\Semana08\bin\Debug\net7.0\Semana08.runtimeconfig.json
 C:\GitHub\Trilha5\Semana08\bin\Debug\net7.0\Semana08.dll
 C:\GitHub\Trilha5\Semana08\bin\Debug\net7.0\Semana08.pdb
+C:\GitHub\Trilha5\Semana08\bin\Debug\net7.0\Semana08_Classes.dll
+C:\GitHub\Trilha5\Semana08\bin\Debug\net7.0\Semana08_Classes.pdb
+C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\Semana08.csproj.CopyComplete
 C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\Semana08.dll
 C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\refint\Semana08.dll
 C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\Semana08.pdb
 C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\Semana08.genruntimeconfig.cache
 C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\ref\Semana08.dll
-C:\GitHub\Trilha5\Semana08\obj\Debug\net7.0\Semana08.csproj.AssemblyReference.cache
