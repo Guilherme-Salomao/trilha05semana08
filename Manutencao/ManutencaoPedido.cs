@@ -3,17 +3,38 @@ using Semana08.Main;
 
 namespace Semana08.Manutencao
 {
+    /// <summary>
+    /// Classe responsável pela manutenção de pedidos, incluindo a criação e a listagem de pedidos.
+    /// </summary>
     internal class ManutencaoPedido
     {
+        /// <summary>
+        /// Lista de pedidos.
+        /// </summary>
         private List<Pedido> pedidos;
+
+        /// <summary>
+        /// Menu principal, usado para exibir a interface do usuário.
+        /// </summary>
         private Menu menu; // Referência ao menu para navegação
 
+        /// <summary>
+        /// Inicializa uma nova instância da classe <see cref="ManutencaoPedido"/> com o menu, lista de itens disponíveis e lista de clientes especificados.
+        /// </summary>
+        /// <param name="menu">O menu principal.</param>
+        /// <param name="itensDisponiveis">A lista de itens disponíveis para pedido.</param>
+        /// <param name="clientes">A lista de clientes.</param>
         public ManutencaoPedido(Menu menu, List<ItemDePedido> itensDisponiveis, List<Cliente> clientes)
         {
             this.menu = menu;
             this.pedidos = new List<Pedido>();
         }
 
+        /// <summary>
+        /// Cria um novo pedido solicitando a seleção de um cliente e de produtos disponíveis.
+        /// </summary>
+        /// <param name="itensDisponiveis">A lista de itens disponíveis para pedido.</param>
+        /// <param name="clientes">A lista de clientes.</param>
         public void CriarPedido(List<ItemDePedido> itensDisponiveis, List<Cliente> clientes)
         {
             Console.Clear();
@@ -68,6 +89,9 @@ namespace Semana08.Manutencao
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Lista todos os pedidos cadastrados, exibindo os detalhes de cada pedido.
+        /// </summary>
         public void ListarPedidos()
         {
             Console.Clear();

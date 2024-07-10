@@ -3,17 +3,46 @@ using Semana08_Classes.Modelo;
 
 namespace Semana08.Main
 {
+    /// <summary>
+    /// Classe responsável por exibir o menu principal e gerenciar as operações relacionadas a clientes, produtos e pedidos.
+    /// </summary>
     internal class Menu
     {
         //CRIANDO AS LISTAS
+        /// <summary>
+        /// Lista de produtos cadastrados no sistema.
+        /// </summary>
         private List<Produto> produtosCadastrados;
+       
+        /// <summary>
+        /// Lista de itens de pedido registrados no sistema.
+        /// </summary>
         private List<ItemDePedido> itemDePedidos;
+
+        /// <summary>
+        /// Instância de <see cref="ManutencaoItemProduto"/> para realizar operações de manutenção de itens de produto.
+        /// </summary>
         private ManutencaoItemProduto manutencaoItemProduto;
+
+        /// <summary>
+        /// Lista de clientes cadastrados no sistema.
+        /// </summary>
         private List<Cliente> clientes;
+
+        /// <summary>
+        /// Instância de <see cref="ManutencaoCliente"/> para realizar operações de manutenção de clientes.
+        /// </summary>
         private ManutencaoCliente manutencaoCliente;
+
+        /// <summary>
+        /// Instância de <see cref="ManutencaoPedido"/> para realizar operações de manutenção de pedidos.
+        /// </summary>
         private ManutencaoPedido manutencaoPedido;
 
         //CONSTRUTOR PARA GERENCIAR A LISTA
+        /// <summary>
+        /// Inicializa uma nova instância da classe <see cref="Menu"/>.
+        /// </summary>
         public Menu()
         {
             produtosCadastrados = new List<Produto>();
@@ -26,6 +55,9 @@ namespace Semana08.Main
             manutencaoPedido = new ManutencaoPedido(this, itemDePedidos, clientes);
         }
 
+        /// <summary>
+        /// Exibe o logo da aplicação.
+        /// </summary>
         public void ExibirLogo()
         {
             Console.WriteLine(@"
@@ -38,6 +70,10 @@ namespace Semana08.Main
         }
 
         Boolean menu = true;
+
+        /// <summary>
+        /// Exibe o menu principal e realiza operações de acordo com a escolha do usuário.
+        /// </summary>
         public void ExibirMenu()
         {
             while (menu)

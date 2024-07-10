@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Semana08_Classes</name>
+    </assembly>
+    <members>
+        <member name="T:Semana08_Classes.Modelo.Cliente">
+            <summary>
+            Representa um cliente com informações básicas como nome, CPF, email, profissão, telefone e endereço.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Cliente.email">
+            <summary>
+            Email do cliente.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Cliente.profissao">
+            <summary>
+            Profissão do cliente.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Cliente.telefone">
+            <summary>
+            Telefone do cliente.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Cliente.endereco">
+            <summary>
+            Endereço do cliente.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.Cliente.Nome">
+            <summary>
+            Obtém ou define o nome do cliente.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.Cliente.Cpf">
+            <summary>
+            Obtém ou define o CPF do cliente.
+            </summary>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.Cliente.#ctor(System.String,System.String)">
+            <summary>
+            Inicializa uma nova instância da classe <see cref="T:Semana08_Classes.Modelo.Cliente"/> com o nome e CPF especificados.
+            </summary>
+            <param name="nome">Nome do cliente.</param>
+            <param name="cpf">CPF do cliente.</param>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.Cliente.ObterDescricao">
+            <summary>
+            Retorna uma descrição do cliente, incluindo o nome e CPF.
+            </summary>
+            <returns>Uma string que representa a descrição do cliente.</returns>
+        </member>
+    </members>
+</doc>
