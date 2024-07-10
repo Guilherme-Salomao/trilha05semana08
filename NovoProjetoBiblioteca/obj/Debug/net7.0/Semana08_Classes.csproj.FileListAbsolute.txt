@@ -1,0 +1,13 @@
+C:\GitHub\Trilha5\Semana08_Classes\bin\Debug\net7.0\Semana08_Classes.deps.json
+C:\GitHub\Trilha5\Semana08_Classes\bin\Debug\net7.0\Semana08_Classes.dll
+C:\GitHub\Trilha5\Semana08_Classes\bin\Debug\net7.0\Semana08_Classes.pdb
+C:\GitHub\Trilha5\Semana08_Classes\obj\Debug\net7.0\Semana08_Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Trilha5\Semana08_Classes\obj\Debug\net7.0\Semana08_Classes.AssemblyInfoInputs.cache
+C:\GitHub\Trilha5\Semana08_Classes\obj\Debug\net7.0\Semana08_Classes.AssemblyInfo.cs
+C:\GitHub\Trilha5\Semana08_Classes\obj\Debug\net7.0\Semana08_Classes.csproj.CoreCompileInputs.cache
+C:\GitHub\Trilha5\Semana08_Classes\obj\Debug\net7.0\Semana08_Classes.dll
+C:\GitHub\Trilha5\Semana08_Classes\obj\Debug\net7.0\refint\Semana08_Classes.dll
+C:\GitHub\Trilha5\Semana08_Classes\obj\Debug\net7.0\Semana08_Classes.pdb
+C:\GitHub\Trilha5\Semana08_Classes\obj\Debug\net7.0\ref\Semana08_Classes.dll
+C:\GitHub\Trilha5\Semana08_Classes\bin\Debug\net7.0\Semana08_Classes.xml
+C:\GitHub\Trilha5\Semana08_Classes\obj\Debug\net7.0\Semana08_Classes.xml

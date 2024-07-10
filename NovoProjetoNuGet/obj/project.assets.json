@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Semana08_Classes/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Semana08_Classes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Semana08_Classes.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Semana08_Classes/1.0.0": {
+      "sha512": "eIoVPGHlAzgL55SWtTdVECF6p5p8MoKn/O5csiVgxSI3CfESxVpTgvyiXTWpeDyResiVIbUhZuB9hX6XXN8A9A==",
+      "type": "package",
+      "path": "semana08_classes/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net7.0/Semana08_Classes.dll",
+        "lib/net7.0/Semana08_Classes.xml",
+        "semana08_classes.1.0.0.nupkg.sha512",
+        "semana08_classes.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Semana08_Classes >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Guilherme\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\GitHub\\Trilha5\\Semana08_Novo\\Semana08_Novo.csproj",
+      "projectName": "Semana08_Novo",
+      "projectPath": "C:\\GitHub\\Trilha5\\Semana08_Novo\\Semana08_Novo.csproj",
+      "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\Trilha5\\Semana08_Novo\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Semana08_Classes": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

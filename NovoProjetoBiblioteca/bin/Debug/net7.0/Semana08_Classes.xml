@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Semana08_Classes</name>
+    </assembly>
+    <members>
+        <member name="T:Semana08_Classes.Modelo.Cliente">
+            <summary>
+            Representa um cliente com informações básicas como nome, CPF, email, profissão, telefone e endereço.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Cliente.email">
+            <summary>
+            Email do cliente.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Cliente.profissao">
+            <summary>
+            Profissão do cliente.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Cliente.telefone">
+            <summary>
+            Telefone do cliente.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Cliente.endereco">
+            <summary>
+            Endereço do cliente.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.Cliente.Nome">
+            <summary>
+            Obtém ou define o nome do cliente.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.Cliente.Cpf">
+            <summary>
+            Obtém ou define o CPF do cliente.
+            </summary>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.Cliente.#ctor(System.String,System.String)">
+            <summary>
+            Inicializa uma nova instância da classe <see cref="T:Semana08_Classes.Modelo.Cliente"/> com o nome e CPF especificados.
+            </summary>
+            <param name="nome">Nome do cliente.</param>
+            <param name="cpf">CPF do cliente.</param>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.Cliente.ObterDescricao">
+            <summary>
+            Retorna uma descrição do cliente, incluindo o nome e CPF.
+            </summary>
+            <returns>Uma string que representa a descrição do cliente.</returns>
+        </member>
+        <member name="T:Semana08_Classes.Modelo.Endereco">
+            <summary>
+            Representa um endereço com informações básicas como bairro, cidade, complemento, estado, rua e número.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Endereco.bairro">
+            <summary>
+            Bairro do endereço.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Endereco.cidade">
+            <summary>
+            Cidade do endereço.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Endereco.complemento">
+            <summary>
+            Complemento do endereço.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Endereco.estado">
+            <summary>
+            Estado do endereço.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Endereco.rua">
+            <summary>
+            Rua do endereço.
+            </summary>
+        </member>
+        <member name="F:Semana08_Classes.Modelo.Endereco.numero">
+            <summary>
+            Número do endereço.
+            </summary>
+        </member>
+        <member name="T:Semana08_Classes.Modelo.ItemDePedido">
+            <summary>
+            Representa um item de pedido, que é um produto com quantidade e preço unitário.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.ItemDePedido.Quantidade">
+            <summary>
+            Obtém ou define a quantidade do produto no pedido.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.ItemDePedido.PrecoUnitario">
+            <summary>
+            Obtém ou define o preço unitário do produto.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.ItemDePedido.Subtotal">
+            <summary>
+            Obtém o subtotal do item, calculado como a quantidade multiplicada pelo preço unitário.
+            </summary>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.ItemDePedido.#ctor(System.String,System.Int32,System.Decimal)">
+            <summary>
+            Inicializa uma nova instância da classe <see cref="T:Semana08_Classes.Modelo.ItemDePedido"/> com o nome do produto, quantidade e preço unitário especificados.
+            </summary>
+            <param name="nome">Nome do produto.</param>
+            <param name="quantidade">Quantidade do produto.</param>
+            <param name="precoUnitario">Preço unitário do produto.</param>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.ItemDePedido.ObterItemProduto">
+            <summary>
+            Retorna uma descrição do item de pedido, incluindo o nome do produto, preço unitário, quantidade e valor total.
+            </summary>
+            <returns>Uma string que representa a descrição do item de pedido.</returns>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.Pedido.Cliente">
+            <summary>
+            Representa um pedido contendo informações do cliente, data, itens e o valor total.
+            </summary>
+            <summary>
+            Obtém ou define o cliente associado ao pedido.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.Pedido.Data">
+            <summary>
+            Obtém ou define a data do pedido.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.Pedido.Itens">
+            <summary>
+            Obtém ou define a lista de itens do pedido.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.Pedido.Total">
+            <summary>
+            Obtém o valor total do pedido.
+            </summary>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.Pedido.#ctor(Semana08_Classes.Modelo.Cliente,System.DateTime,System.Collections.Generic.List{Semana08_Classes.Modelo.ItemDePedido})">
+            <summary>
+            Inicializa uma nova instância da classe <see cref="T:Semana08_Classes.Modelo.Pedido"/> com o cliente, data e itens especificados.
+            </summary>
+            <param name="cliente">O cliente associado ao pedido.</param>
+            <param name="data">A data do pedido.</param>
+            <param name="itens">A lista de itens do pedido.</param>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.Pedido.ExibirPedido">
+            <summary>
+            Exibe as informações do pedido, incluindo cliente, data, itens e o valor total.
+            </summary>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.Pedido.AdicionarItem(Semana08_Classes.Modelo.ItemDePedido)">
+            <summary>
+            Adiciona um item ao pedido e atualiza o valor total.
+            </summary>
+            <param name="item">O item a ser adicionado ao pedido.</param>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.Pedido.RemoverItem(Semana08_Classes.Modelo.ItemDePedido)">
+            <summary>
+            Remove um item do pedido e atualiza o valor total.
+            </summary>
+            <param name="item">O item a ser removido do pedido.</param>
+        </member>
+        <member name="T:Semana08_Classes.Modelo.Produto">
+            <summary>
+            Representa um produto com código, nome, descrição, preço unitário e quantidade.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.Produto.Codigo">
+            <summary>
+            Obtém ou define o código do produto.
+            </summary>
+        </member>
+        <member name="P:Semana08_Classes.Modelo.Produto.Quantidade">
+            <summary>
+            Obtém ou define a quantidade do produto em estoque.
+            </summary>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.Produto.#ctor">
+            <summary>
+            Inicializa uma nova instância da classe <see cref="T:Semana08_Classes.Modelo.Produto"/>.
+            </summary>
+        </member>
+        <member name="M:Semana08_Classes.Modelo.Produto.#ctor(System.String)">
+            <summary>
+            Inicializa uma nova instância da classe <see cref="T:Semana08_Classes.Modelo.Produto"/> com o nome especificado.
+            </summary>
+            <param name="nome">O nome do produto.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,17 @@
+C:\GitHub\Trilha5\Semana08_Novo\bin\Debug\net7.0\Semana08_Novo.exe
+C:\GitHub\Trilha5\Semana08_Novo\bin\Debug\net7.0\Semana08_Novo.deps.json
+C:\GitHub\Trilha5\Semana08_Novo\bin\Debug\net7.0\Semana08_Novo.runtimeconfig.json
+C:\GitHub\Trilha5\Semana08_Novo\bin\Debug\net7.0\Semana08_Novo.dll
+C:\GitHub\Trilha5\Semana08_Novo\bin\Debug\net7.0\Semana08_Novo.pdb
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\Semana08_Novo.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\Semana08_Novo.AssemblyInfoInputs.cache
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\Semana08_Novo.AssemblyInfo.cs
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\Semana08_Novo.csproj.CoreCompileInputs.cache
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\Semana08_Novo.dll
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\refint\Semana08_Novo.dll
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\Semana08_Novo.pdb
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\Semana08_Novo.genruntimeconfig.cache
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\ref\Semana08_Novo.dll
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\Semana08_Novo.csproj.AssemblyReference.cache
+C:\GitHub\Trilha5\Semana08_Novo\bin\Debug\net7.0\Semana08_Classes.dll
+C:\GitHub\Trilha5\Semana08_Novo\obj\Debug\net7.0\Semana08_Novo.csproj.CopyComplete

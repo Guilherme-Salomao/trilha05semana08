@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Semana08_Novo/1.0.0": {
+        "dependencies": {
+          "Semana08_Classes": "1.0.0"
+        },
+        "runtime": {
+          "Semana08_Novo.dll": {}
+        }
+      },
+      "Semana08_Classes/1.0.0": {
+        "runtime": {
+          "lib/net7.0/Semana08_Classes.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Semana08_Novo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Semana08_Classes/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIoVPGHlAzgL55SWtTdVECF6p5p8MoKn/O5csiVgxSI3CfESxVpTgvyiXTWpeDyResiVIbUhZuB9hX6XXN8A9A==",
+      "path": "semana08_classes/1.0.0",
+      "hashPath": "semana08_classes.1.0.0.nupkg.sha512"
+    }
+  }
+}
