@@ -1,5 +1,4 @@
-﻿
-namespace Semana08_Classes.Modelo
+﻿namespace Semana08_Classes.Modelo
 {
     /// <summary>
     /// Representa um cliente com informações básicas como nome, CPF, email, profissão, telefone e endereço.
@@ -56,8 +55,11 @@ namespace Semana08_Classes.Modelo
         // Construtor
         public Cliente(string nome, string cpf)
         {
-            this.nome = nome;
-            this.cpf = cpf;
+            if (nome == null) throw new ArgumentNullException(nameof(nome));
+            if (cpf == null) throw new ArgumentNullException(nameof(cpf));
+
+            Nome = nome;
+            Cpf = cpf;
         }
 
         /// <summary>
